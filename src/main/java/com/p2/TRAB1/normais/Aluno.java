@@ -71,6 +71,11 @@ public class Aluno extends Pessoa implements PessoaFisica{
     public void setRg(String rg) {
         this.rg = rg;
     }
+
+    @Override
+    public String toString() {
+        return this.nome;
+    }
     
 }
 

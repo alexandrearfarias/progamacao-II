@@ -63,4 +63,10 @@ public class Diretor extends Funcionario implements Diretoria{
     public void setCodDIR(int num) {
         this.codDIR= num;
     }
+
+    @Override
+    public String toString() {
+        return this.nome;
+    }
+    
 }

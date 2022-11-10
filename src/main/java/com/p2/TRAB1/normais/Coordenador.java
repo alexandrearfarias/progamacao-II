@@ -62,5 +62,10 @@ public class Coordenador extends Funcionario implements Diretoria {
         this.codDIR= num;
     }
 
+    @Override
+    public String toString() {
+        return this.nome;
+    }
+
 }
 

@@ -77,5 +77,10 @@ public class SecAcademica extends Funcionario implements Secretaria{
         this.codSEC= num;
     }
 
+    @Override
+    public String toString() {
+        return this.nome;
+    }
+
 }
 

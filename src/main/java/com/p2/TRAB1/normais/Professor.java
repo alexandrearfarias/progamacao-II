@@ -77,6 +77,11 @@ public class Professor extends Funcionario {
     public String getNome() {
         return super.getNome(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
     }
+
+    @Override
+    public String toString() {
+        return this.nome;
+    }
     
 }
 

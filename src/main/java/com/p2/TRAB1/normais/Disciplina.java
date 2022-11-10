@@ -56,6 +56,11 @@ public class Disciplina {
         }else
             alunos.remove(a);
     }
+
+    @Override
+    public String toString() {
+        return this.nome;
+    }
     
     
     

@@ -49,4 +49,10 @@ public class Curso  {
     public void removeDisciplina(Disciplina d){
         disciplinas.remove(d);
     }
+
+    @Override
+    public String toString() {
+        return this.nome;
+    }
+    
 }

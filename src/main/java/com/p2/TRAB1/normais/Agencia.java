@@ -44,4 +44,10 @@ public class Agencia {
     public void addContas(ContaCorrente c){
         contas.add(c);
     }
+
+    @Override
+    public String toString() {
+        return this.nomeAgencia;
+    }
+    
 }

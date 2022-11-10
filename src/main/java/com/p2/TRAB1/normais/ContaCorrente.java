@@ -81,6 +81,12 @@ public class ContaCorrente<T> implements Conta{
     @Override
     public void setCodConta(String codC) {
         this.codCC= codC;
-    }   
+    }
+
+    @Override
+    public String toString() {
+        return this.codCC;
+    }
+    
 }
 
