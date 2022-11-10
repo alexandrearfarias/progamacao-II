@@ -65,6 +65,7 @@ public class ContaCorrente<T> implements Conta{
             throw new SaldoInsuficiente(saldo);
         }
         else
+        	this.saldo -=valor;
             System.out.println("saque realizado com sucesso!");
     }
 
